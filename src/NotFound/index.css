@@ -1,0 +1,10 @@
+.NotfoundContainer {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}

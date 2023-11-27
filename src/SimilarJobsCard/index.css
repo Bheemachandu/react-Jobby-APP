@@ -1,0 +1,30 @@
+.similarJobsCardContainer {
+  background-color: #202020;
+  padding: 20px;
+
+  width: 300px;
+  border-radius: 15px;
+}
+
+.similarJobsTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.similarJobsCardRatingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.similarjobLogo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.similarJobsLocationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}

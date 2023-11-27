@@ -1,0 +1,13 @@
+.salaryRangeInputContainer {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.salaryRangeInput {
+  border-width: 0px;
+}
+
+.listOfItems {
+  margin-left: 0px;
+}

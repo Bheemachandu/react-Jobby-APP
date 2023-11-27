@@ -1,0 +1,42 @@
+.navbarContainer {
+  width: 100%;
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  list-style: none;
+}
+
+.homeJobMenuContainer {
+  display: flex;
+
+  width: 150px;
+}
+
+.website-logo-img {
+  width: 70px;
+  height: 30px;
+}
+
+.navbarHeading {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.navbarBtn {
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.LinkEl {
+  text-decoration: none;
+  color: #ffffff;
+}
