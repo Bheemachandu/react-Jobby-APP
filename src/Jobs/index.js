@@ -254,6 +254,23 @@ class Jobs extends Component {
       <div className="jobsContainer">
         <Navbar />
         <div className="JobslowerContainer">
+          <div className="searchContainer mobile">
+            <input
+              className="inputElement"
+              onChange={this.inputTextChange}
+              type="search"
+              value={searchText}
+            />
+            <button
+              className="searchBtn"
+              aria-label="Mute volume"
+              type="button"
+              data-testid="searchButton"
+              onClick={this.updateJobsListOnSearch}
+            >
+              <BsSearch className="search-icon" />
+            </button>
+          </div>
           <div className="jobsFilterContainer">
             <Profile />
             <hr />
@@ -262,7 +279,7 @@ class Jobs extends Component {
             <ul className="unorderList">{this.renderSalaryRange()}</ul>
           </div>
           <div className="JobsListContainer">
-            <div className="searchContainer">
+            <div className="searchContainer desktop">
               <input
                 className="inputElement"
                 onChange={this.inputTextChange}

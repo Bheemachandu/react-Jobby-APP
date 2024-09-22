@@ -5,13 +5,17 @@
 .JobslowerContainer {
   padding: 30px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: black;
 }
 
 .jobsFilterContainer {
-  width: 250px;
+  width: 30%;
 }
 .JobsListContainer {
-  width: 100%;
+  width: 70%;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -34,16 +38,24 @@
 .searchContainer {
   background-color: #64748b;
   width: 380px;
+  height: 30px;
   display: flex;
   border-radius: 10px;
   align-items: center;
-  background-color: yellow;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
 }
 
 .inputElement {
   border: none;
   height: 30px;
-  width: 350px;
+  width: 92%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 0px;
@@ -55,7 +67,7 @@
 
 .searchBtn {
   height: 30px;
-  width: 30px;
+  width: 8%;
   background-color: #272727;
   border-top: 1px solid #64748b;
   border-bottom: 1px solid #64748b;
@@ -124,4 +136,28 @@
   list-style: none;
   margin-left: 0px;
   padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+    margin-bottom: 10px;
+    border-style: none;
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .JobslowerContainer {
+    flex-direction: column;
+  }
+
+  .JobsListContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .jobsFilterContainer {
+    width: 100%;
+  }
 }

@@ -7,6 +7,20 @@
   background-size: 100% 100%;
 }
 
+.HomeContentContainer {
+  margin: 50px;
+  color: #ffffff;
+  width: 40%;
+}
+
+.homeBtn {
+  background-color: #4f46e5;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+}
+
 @media (orientation: portrait), (max-width: 600px) {
   .homeContainer {
     width: 100vw;
@@ -16,18 +30,7 @@
 
     background-size: 100% 100%;
   }
-}
-
-.HomeContentContainer {
-  margin: 50px;
-  color: #ffffff;
-  width: 400px;
-}
-
-.homeBtn {
-  background-color: #4f46e5;
-  border-radius: 8px;
-  border: none;
-  padding: 10px;
-  color: #ffffff;
+  .HomeContentContainer {
+    width: 80%;
+  }
 }
